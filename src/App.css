@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-section {
+  width: 300px;
+}
+
+.login-section button {
+  border: none;
+  background-color: #bd7bc8;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin: 0.5em 0 1em 0;
+  cursor: pointer;
+}
+
+.counter-section {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.counter-section h1 {
+  line-height: 60px;
+  font-size: 3.2em;
+}
+
+.counter-section button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
